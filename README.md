@@ -1,4 +1,4 @@
-# Ultimate-JavaScript-Moon-Phase
+# Ultimate JavaScript Moon Phase
 
 Acknowledgment:
 
