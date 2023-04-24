@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #moon-phase {
+        width:  400px;
+        height: 400px;
+      }
+    </style>
+    <script src="MoonPhase.js"></script>
+    <script>
+      window.onload = function()
+      {
+        var mp = new MoonPhase();
+        mp.setDate(4, 5, 2023);
+        mp.render('moon-phase');
+        document.getElementById('textual').innerHTML = mp.toString();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="moon-phase"></div>
+    <div id="textual"></div>
+  </body>
+</html>
